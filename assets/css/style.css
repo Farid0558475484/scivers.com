@@ -63,6 +63,9 @@ li {
   color: #1d062f;
 }
 
+#first-section {
+  padding: 100px 0;
+}
 #first-section .img {
   background-image: radial-gradient(at center center, rgba(89, 255, 0, 0.958) 0%, #1d062f 55%);
 }
@@ -103,4 +106,36 @@ li {
 #first-section .online-user p {
   font-size: 15px;
   font-weight: 600;
+}
+
+#second-section {
+  background-color: #310454;
+  padding: 50px;
+}
+#second-section .multiple,
+#second-section .motion,
+#second-section .ultra {
+  text-align: center;
+}
+#second-section .platform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#second-section .platform img {
+  width: 100px;
+  height: 100px;
+}
+#second-section .platform h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+#second-section .platform p {
+  color: rgba(255, 255, 255, 0.697);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
 }
