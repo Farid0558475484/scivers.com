@@ -26,7 +26,7 @@ li {
     }
   }
   .page {
-    padding: 1rem 0;
+    padding: 2rem 0 0 0;
     ul {
       display: flex;
       justify-content: space-around;
@@ -46,6 +46,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem 0 0 0;
     button {
       padding: 20px;
       border: 1px solid #73ff7f;
@@ -292,5 +293,38 @@ li {
       border: #08753a 4px solid;
       color: white;
     }
+  }
+}
+
+#footer {
+  p {
+    padding: 20px 0;
+    color: white;
+  }
+  .social-media {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      gap: 30px;
+    }
+  }
+
+  .footer-left {
+    display: flex;
+    justify-content: start;
+  }
+
+  .footer-right {
+    display: flex;
+    justify-content: end;
+    a{
+      color: white;
+    }
+  }
+
+  .footer-text {
+    text-align: center;
   }
 }

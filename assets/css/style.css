@@ -27,7 +27,7 @@ li {
   height: 100px;
 }
 #header .page {
-  padding: 1rem 0;
+  padding: 2rem 0 0 0;
 }
 #header .page ul {
   display: flex;
@@ -48,6 +48,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem 0 0 0;
 }
 #header .sing-in button {
   padding: 20px;
@@ -275,4 +276,30 @@ li {
   background-color: #08753a;
   border: #08753a 4px solid;
   color: white;
+}
+
+#footer p {
+  padding: 20px 0;
+  color: white;
+}
+#footer .social-media ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+#footer .footer-left {
+  display: flex;
+  justify-content: start;
+}
+#footer .footer-right {
+  display: flex;
+  justify-content: end;
+}
+#footer .footer-right a {
+  color: white;
+}
+#footer .footer-text {
+  text-align: center;
 }
