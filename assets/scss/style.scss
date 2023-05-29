@@ -193,7 +193,8 @@ li {
   }
 }
 
-#world-like {
+#world-like,
+#user {
   padding: 100px 0;
   img {
     height: 700px;
@@ -287,11 +288,9 @@ li {
       }
     }
     .content-3 {
-   
-        background-color: #08753a;
-        border: #08753a 4px solid;
-        color: white;
-      
+      background-color: #08753a;
+      border: #08753a 4px solid;
+      color: white;
     }
   }
 }

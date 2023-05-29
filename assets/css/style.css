@@ -180,35 +180,42 @@ li {
   border-radius: 5px;
 }
 
-#world-like {
+#world-like,
+#user {
   padding: 100px 0;
 }
-#world-like img {
+#world-like img,
+#user img {
   height: 700px;
 }
-#world-like .img {
+#world-like .img,
+#user .img {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: radial-gradient(at center center, #61ffa9 0%, #19128b 55%);
 }
-#world-like h3 {
+#world-like h3,
+#user h3 {
   font-size: 50px;
   font-weight: 700;
   color: white;
   text-align: center;
   padding: 30px 0;
 }
-#world-like h3 span {
+#world-like h3 span,
+#user h3 span {
   color: #61ffa9;
 }
-#world-like p {
+#world-like p,
+#user p {
   color: rgba(255, 255, 255, 0.697);
   font-size: 20px;
   font-weight: 500;
   text-align: center;
 }
-#world-like .world-container {
+#world-like .world-container,
+#user .world-container {
   padding: 100px 0;
 }
 
