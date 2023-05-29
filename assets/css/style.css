@@ -118,23 +118,18 @@ li {
 #second-section .ultra {
   text-align: center;
 }
-#second-section .platform {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#second-section .platform img {
+#second-section img {
   width: 100px;
   height: 100px;
 }
-#second-section .platform h3 {
+#second-section h3 {
   font-size: 30px;
   font-weight: 700;
   color: white;
   text-align: center;
   padding: 30px 0;
 }
-#second-section .platform p {
+#second-section p {
   color: rgba(255, 255, 255, 0.697);
   font-size: 20px;
   font-weight: 500;
@@ -184,10 +179,6 @@ li {
 #world-like,
 #user {
   padding: 100px 0;
-}
-#world-like img,
-#user img {
-  height: 700px;
 }
 #world-like .img,
 #user .img {
@@ -276,6 +267,7 @@ li {
   background-color: #08753a;
   border: #08753a 4px solid;
   color: white;
+  text-align: center;
 }
 
 #footer .social-media li a i {
@@ -311,4 +303,77 @@ li {
 }
 #footer .footer-text {
   text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #building .content-img {
+    gap: 5px;
+    padding: 0;
+  }
+  #building .content-img .content-1 {
+    padding: 10px 5px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #header .sing-in {
+    display: none;
+  }
+  #header .page p,
+  #header .page a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #first-section {
+    padding: 0px 0;
+  }
+  #first-section .title {
+    padding-top: 0px;
+    font-size: 40px;
+  }
+  #first-section .title,
+  #first-section p {
+    text-align: center;
+  }
+  #first-section .started-watch {
+    text-align: center;
+  }
+  #first-section .avatar-img img {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #world-like,
+  #user,
+  #render,
+  .world-container,
+  .content {
+    padding: 0px 0px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  #user .render-container h3,
+  #building .render-container h3,
+  #render .render-container h3 {
+    font-size: 40px;
+  }
+  #user .img img,
+  #building .img img,
+  #render .img img {
+    height: 400px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .world-container {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #footer .footer-left,
+  #footer .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
