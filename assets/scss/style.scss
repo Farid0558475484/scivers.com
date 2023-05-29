@@ -51,13 +51,13 @@ li {
       padding: 20px;
       border: 1px solid #73ff7f;
       border-radius: 5px;
-      background-color: #1d062f;
-      color: white;
+      background-color: #ffffff;
+      color: rgb(15, 3, 3);
       font-size: 20px;
       font-weight: 500;
       &:hover {
-        background-color: white;
-        color: #1d062f;
+        background-color: rgb(25, 234, 77);
+        color: #fefcff;
       }
     }
   }
@@ -297,6 +297,21 @@ li {
 }
 
 #footer {
+  .social-media {
+    li {
+      a{
+        i{
+          font-size: 30px;
+          &:hover {
+            color: #61ffa9;
+          }
+        }
+      }
+    }
+  }
+  a {
+    color: white;
+  }
   p {
     padding: 20px 0;
     color: white;
@@ -319,7 +334,7 @@ li {
   .footer-right {
     display: flex;
     justify-content: end;
-    a{
+    a {
       color: white;
     }
   }
